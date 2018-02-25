@@ -31,7 +31,34 @@ h2,
 
 /*selektor konkretnego elementu*/
 
-#lista2 li:nth-child(2) {
+#lista2 li:nth-child(n+3) {
 	font-size: 20px;
 	color: blueviolet;
+}
+
+/*Selektor bliskiego rodzenstwa*/
+
+header h2 + h3 {
+	color: yellow;
+
+}
+
+/*selektor rodzeństwa*/
+
+section h2 ~ h3 {
+	color: darkgoldenrod;
+}
+
+/*selektor wykluczajacy*/
+
+ul li:not(.last-item) {
+
+	color: red;
+
+}
+
+/*selektor atrybutu*/
+
+li a[href="https://google.pl"] {
+	background-color: darkblue;
 }
