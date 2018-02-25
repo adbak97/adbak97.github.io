@@ -1,0 +1,37 @@
+p {
+	color: orange;
+}
+
+/*selektor znacznika p*/
+
+#id-text {
+	color: red;
+	font-size: 22px;
+}
+
+,
+h2,
+.link {
+	color: pink;
+	background-color: blue;
+}
+
+/* potomek bezposredni */
+
+#potomek-bezposredni > p {
+	color: forestgreen
+}
+
+/*selektor wszystkich elementow potomnych*/
+
+#lista a {
+	font-size: 40px;
+}
+
+
+/*selektor konkretnego elementu*/
+
+#lista2 li:nth-child(2) {
+	font-size: 20px;
+	color: blueviolet;
+}
