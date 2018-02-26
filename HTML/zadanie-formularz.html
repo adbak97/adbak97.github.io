@@ -4,12 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Formularz</title>
-	<style type="text/css">
+	<style>
 		.margin {
-			//background-color: orangered;
 			position: absolute;
-			left: 250px; //padding-top: 50px;
-			//margin-top: 10px;
+			left: 250px;
 		}
 
 		.div {
@@ -17,36 +15,28 @@
 		}
 
 	</style>
-
 </head>
 
 <body>
 	<main>
 		<form action="https://formspree.io/adbak97@o2.pl" method="POST">
-
 			<div class="div"><label for="imie">Imię:</label><input class="margin" type="text" placeholder="Imię" name="Imię" id="imie"></div>
 			<div class="div"><label for="nazw">Nazwisko:</label>
 				<input class="margin" type="text" placeholder="Nazwisko" name="Nazwisko" id="nazw"></div>
-
 			<div class="div"> <label for="mail">Adres E-mail</label> <input class="margin" type="email" placeholder="E-mail" name="Adres email" id="mail"></div>
-
 			<div class="div"><label for="tel"> Telefon</label>
 				<input class="margin" type="tel" name="Telefon:" placeholder="Telefon" id="tel"></div>
-
 			<div class="div"><label for="miasto">Miasto:</label> <select class="margin" name="miasto" id="miasto">
 			<option>Kraków</option>
 			<option>Warszawa</option>
 			<option>Gdańsk</option>
 				</select></div>
-
 			<div class="div"><label for="kobieta">Kobieta</label>
 				<input type="radio" name="gender" id="kobieta"><label for="mezczyzna"> Mężczyzna</label><input type="radio" name="gender" id="mezczyzna"> </div>
 			<div class="div"><label for="zgoda">Zgoda na 			przetwarzanie danych</label><input class="margin" type="checkbox" name="zgoda" id="zgoda"></div>
-
 			<div class="div"><label for="wiadomosc">Wiadomość</label>
-				<input class="margin" placeholder="Wiadomość" type="textarea" id="wiadomosc">
-
-				<br/><br/><input class="margin" type="submit" value="send"><br/>
+				<input class="margin" placeholder="Wiadomość" type="text" id="wiadomosc"></div>
+			<div class="div"><input class="margin" type="submit" value="send"> </div>
 		</form>
 	</main>
 </body>
