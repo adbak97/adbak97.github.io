@@ -7,8 +7,13 @@
 	<style type="text/css">
 		.margin {
 			//background-color: orangered;
-			margin-left: 250px;
-			margin-top: 10px;
+			position: absolute;
+			left: 250px; //padding-top: 50px;
+			//margin-top: 10px;
+		}
+
+		.div {
+			margin-top: 25px;
 		}
 
 	</style>
@@ -19,20 +24,32 @@
 	<main>
 		<form action="https://formspree.io/adbak97@o2.pl" method="POST">
 
-			Imię:<input class="margin" type="text" placeholder="Imię" name="Imię"><br/> Nazwisko:
-			<input class="margin" type="text" placeholder="Nazwisko" name="Nazwisko"><br/> Adres E-mail<input class="margin" type="email" placeholder="E-mail" name="Adres email">
-			<br/> Telefon
-			<input class="margin" type="tel" name="Telefon:" placeholder="Telefon"></div><br/> Miasto :<select class="margin" name="Miasto">
+			<div class="div"><label>Imię:</label><input class="margin" type="text" placeholder="Imię" name="Imię"></div>
+			<div class="div"><label>Imię:</label>
+				<input class="margin" type="text" placeholder="Imię" name="Imię"></div>
+
+			<div class="div"><label>Nazwisko:</label>
+				<input class="margin" type="text" placeholder="Nazwisko" name="Nazwisko"></div>
+
+			<div class="div"> <label>Adres E-mail</label> <input class="margin" type="email" placeholder="E-mail" name="Adres email"></div>
+
+			<div class="div"><label> Telefon</label>
+				<input class="margin" type="tel" name="Telefon:" placeholder="Telefon"></div>
+
+			<div class="div"><label>Miasto:</label> <select class="margin" name="Miasto">
 			<option>Kraków</option>
 			<option>Warszawa</option>
 			<option>Gdańsk</option>
-			</select><br/>
-			<input class="margin" type="radio"><input type="radio"><br/>
-			<br/> <input class="margin" type="checkbox" name="zgoda"><br/>
-			<input class="margin" placeholder="Wiadomość" type="textarea">
+				</select></div>
 
+			<div class="div"><label for="kobieta">Kobieta</label>
+				<input type="radio" name="gender" id="kobieta"><label for="mezczyzna"> Mężczyzna</label><input type="radio" name="gender" id="mezczyzna"> </div>
+			<div class="div"><label for="zgoda">Zgoda na 			przetwarzanie danych</label><input class="margin" type="checkbox" name="zgoda" id="zgoda"></div>
 
-			<br/><br/><input class="margin" type="submit" value="send"><br/>
+			<div class="div"><label for="wiadomosc">Wiadomość</label>
+				<input class="margin" placeholder="Wiadomość" type="textarea" id="wiadomosc">
+
+				<br/><br/><input class="margin" type="submit" value="send"><br/>
 		</form>
 	</main>
 </body>
