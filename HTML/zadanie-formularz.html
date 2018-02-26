@@ -24,19 +24,16 @@
 	<main>
 		<form action="https://formspree.io/adbak97@o2.pl" method="POST">
 
-			<div class="div"><label>Imię:</label><input class="margin" type="text" placeholder="Imię" name="Imię"></div>
-			<div class="div"><label>Imię:</label>
-				<input class="margin" type="text" placeholder="Imię" name="Imię"></div>
+			<div class="div"><label for="imie">Imię:</label><input class="margin" type="text" placeholder="Imię" name="Imię" id="imie"></div>
+			<div class="div"><label for="nazw">Nazwisko:</label>
+				<input class="margin" type="text" placeholder="Nazwisko" name="Nazwisko" id="nazw"></div>
 
-			<div class="div"><label>Nazwisko:</label>
-				<input class="margin" type="text" placeholder="Nazwisko" name="Nazwisko"></div>
+			<div class="div"> <label for="mail">Adres E-mail</label> <input class="margin" type="email" placeholder="E-mail" name="Adres email" id="mail"></div>
 
-			<div class="div"> <label>Adres E-mail</label> <input class="margin" type="email" placeholder="E-mail" name="Adres email"></div>
+			<div class="div"><label for="tel"> Telefon</label>
+				<input class="margin" type="tel" name="Telefon:" placeholder="Telefon" id="tel"></div>
 
-			<div class="div"><label> Telefon</label>
-				<input class="margin" type="tel" name="Telefon:" placeholder="Telefon"></div>
-
-			<div class="div"><label>Miasto:</label> <select class="margin" name="Miasto">
+			<div class="div"><label for="miasto">Miasto:</label> <select class="margin" name="miasto" id="miasto">
 			<option>Kraków</option>
 			<option>Warszawa</option>
 			<option>Gdańsk</option>
