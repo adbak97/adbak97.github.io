@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style>
+	 <style>
 		#container {
 			width: 490px;
 			height: 608px;
@@ -34,40 +34,32 @@
 			right: 0;
 		}
 
-		.square:nth-child(3) {
+		#square-3, #square-4 {
+			bottom: 0;
+		}
+
+		#kolo-2, #kolo-4,.square:nth-child(3) {
 			left: 0;
-			bottom: 0;
 		}
 
-		.square:nth-child(4) {
-			bottom: 0;
-		}
-
-		#kolo-3,
-		#kolo-4 {
+		#kolo-3, #kolo-4 {
 			top: 0;
 		}
-
-		#kolo-2,
-		#kolo-4 {
-			left: 0;
-		}
-
 	</style>
 </head>
 
 <body>
 	<div id="container">
-		<div class="square">
+		<div id="square-1" class="square">
 			<div id="kolo-1" class="kolo"></div>
 		</div>
-		<div class="square">
+		<div id="square-2" class="square">
 			<div id="kolo-2" class="kolo"></div>
 		</div>
-		<div class="square">
+		<div id="square-3" class="square">
 			<div id="kolo-3" class="kolo"></div>
 		</div>
-		<div class="square">
+		<div id="square-4" class="square">
 			<div id="kolo-4" class="kolo"></div>
 		</div>
 	</div>
