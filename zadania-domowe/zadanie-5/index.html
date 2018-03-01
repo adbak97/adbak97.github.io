@@ -1,74 +1,76 @@
 <html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    
-    
-    
-    
-    
-    
-    
-    <style>
-        #container{
-            width:490px;
-            height:608px;
-            background-color: green;
-            position: absolute;
-        }
-        .square{
-            background-color: orange;
-            width: 100px;
-            height: 100px;
-            position: absolute;
-        }
-        .circle{
-            background-color: blue;
-            width: 50px;
-            height: 50px;
-            border-radius: 50px;
-            position: relative;
-            bottom:0px;
-         }
-        .circle:nth-child(odd){
-            background-color: red;
-            left:0px;
-         }
-         
-        .square:nth-child(2n){
-            right: 0;
-            background-color: olive;
-        }
-        .square:nth-child(3){
-            left: 0;
-            bottom: 0;
-            background-color: yellow;
-        }
-        .square:nth-child(4){
-            right: 0;
-            top:508px;
-            background-color:aqua; 
-        }
-        
-        
-   
-    
-    
-    </style>
-    
-    
-    
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#container {
+			width: 490px;
+			height: 608px;
+			background-color: green;
+			position: absolute;
+		}
+
+		.square {
+			background-color: orange;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+		}
+
+		.kolo {
+			background-color: blue;
+			width: 50px;
+			height: 50px;
+			border-radius: 50px;
+			position: absolute;
+			left: 50px;
+			top: 50px;
+		}
+
+		.square:nth-child(2n+2) {
+			right: 0;
+		}
+
+		.square:nth-child(3) {
+			left: 0;
+			bottom: 0;
+		}
+
+		.square:nth-child(4) {
+			bottom: 0;
+		}
+
+		#kolo-3,
+		#kolo-4 {
+			top: 0;
+		}
+
+		#kolo-2,
+		#kolo-4 {
+			left: 0;
+		}
+
+	</style>
 </head>
+
 <body>
-    <div id="container">
-        
-    <div id="square1" class="square"><div id="circle1" class="circle"></div></div>
-
-    <div id="square2" class="square"><div id="circle2" class="circle"></div></div>
-    <div id="square3" class="square"><div id="circle3" class="circle"></div></div>
-    <div id="square4" class="square"><div id="circle4" class="circle"></div></div>
-
-       
-       
-    </div>
-</body>    
+	<div id="container">
+		<div class="square">
+			<div id="kolo-1" class="kolo"></div>
+		</div>
+		<div class="square">
+			<div id="kolo-2" class="kolo"></div>
+		</div>
+		<div class="square">
+			<div id="kolo-3" class="kolo"></div>
+		</div>
+		<div class="square">
+			<div id="kolo-4" class="kolo"></div>
+		</div>
+	</div>
+</body>
 
 </html>
