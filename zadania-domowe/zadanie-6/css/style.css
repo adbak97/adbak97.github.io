@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #98fb98;
+	
+}
+#pic1,#pic2,#pic3,#pic4{
+	width: 500px;
+	height: 350px;
+	display: block;
+	
+	
+}
+#pic1{
+	background-image:url(jpg/product-1.jpg);
+	position: relative;
+	left:-8%;
+}
+#pic2{
+	background-image:url(jpg/product-2.jpg);
+	position: absolute;
+	left:-19%;
+	width:608px; 
+	float: left;
+}
