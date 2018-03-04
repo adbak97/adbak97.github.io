@@ -1,0 +1,179 @@
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+
+}
+
+body {
+	margin: 0;
+	font-weight: 300;
+	height: 20000px;
+
+
+}
+
+section {
+
+	width: 100%;
+	background-color: #f9fcfe;
+	overflow: hidden;
+
+}
+
+section h2 {
+	text-align: center;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+p {
+	line-height: 25px;
+}
+
+section h2 span {
+	color: #1ac056;
+	font-weight: 400;
+}
+
+header {
+	background-image: url(../img/header-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	position: relative;
+	top: 0;
+}
+
+#main-nav {
+	z-index: 2;
+	background-color: white;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+
+}
+
+#main-nav ul {
+	float: right;
+	margin: 0;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	padding: 2rem;
+	font-size: 1.5rem;
+}
+
+#main-nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.header-content {
+	font-size: 5rem;
+	text-align: center;
+	font-weight: 500;
+	color: red;
+}
+
+#about figure img {
+	max-height: 350px;
+	max-width: 100%;
+	border: 14px #fff solid;
+	border-radius: 15px;
+}
+
+#about figure {
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin: 0;
+
+}
+
+
+}
+
+#about div {
+	width: 50%;
+
+}
+
+
+
+#skills {
+	float: left;
+}
+
+#icons figure {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin-left: 20rem;
+	;
+
+}
+
+#portfolio .portfolio-item {
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	width: 33%;
+	position: relative;
+}
+
+#portfolio .portfolio-items #portfolio-item-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio .portfolio-items #portfolio-item-2 {
+	background-image: url(../img/portfolio2.jpg);
+
+}
+
+#portfolio .portfolio-items #portfolio-item-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+
+#portfolio .portfolio-item-mask {
+	opacity: 0;
+	background-color: rgba(42, 61, 79, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+}
+
+#portfolio .portfolio-item-mask:hover {
+	opacity: 1;
+}
+
+#portfolio .mask-content {
+	border: 1px solid #fff;
+	margin: 10px;
+	position: relative;
+	height: 330px;
+}
+
+/*
+#portfolio .mask-content-inner {
+	color: white;
+
+}
+
+#portfolio .mask-content-inner h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#portfolio .mask-content-inner h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}*/
