@@ -1,0 +1,26 @@
+/*Mniej niż 992px*/
+
+@media only screen and (max-width:992px) {
+	body {
+		background-color: red;
+	}
+}
+
+/*Więcej niż 992px*/
+
+@media (min-width:993px) AND (max-width:1170px) {
+	body {
+		background-color: green;
+	}
+}
+
+/*Więcej niż 1170px*/
+
+@media (min-width:1171px) {
+
+
+	body {
+		background-color: yellow;
+	}
+
+}
