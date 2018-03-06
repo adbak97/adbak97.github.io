@@ -13,7 +13,8 @@
 	}
 	img {
 		max-width: 100%;
-		height: auto;
+		height: 50vh;
+		width: 100vw;
 	}
 	#opis {
 		position: absolute;
@@ -33,9 +34,10 @@
 @media (min-width:993px) AND (max-width:1170px) {
 	body {
 		background-image: url(../img/man-2.jpg);
-		background-size: 100% 30%;
+		background-size: 100vw 70vh;
 		background-repeat: no-repeat;
 		color: white;
+
 	}
 	#opis {
 		position: absolute;
@@ -47,6 +49,7 @@
 	}
 	img {
 		display: none;
+
 	}
 }
 
