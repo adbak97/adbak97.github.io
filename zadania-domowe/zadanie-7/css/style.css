@@ -1,8 +1,30 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+
 /*Mniej niż 992px*/
 
-@media only screen and (max-width:992px) {
+@media (max-width:992px) {
 	body {
-		background-color: red;
+		font-size: 2vw;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	#opis {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#opis h2 {
+		text-align: center;
+	}
+	#opis h2 span {
+		font-size: 3vw;
 	}
 }
 
@@ -10,17 +32,32 @@
 
 @media (min-width:993px) AND (max-width:1170px) {
 	body {
-		background-color: green;
+		background-image: url(../img/man-2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
 	}
+	#opis {
+		position: absolute;
+		right: 8vw;
+		top: 15vw
+	}
+}
+
+#opis h2 span {
+	font-size: 2.5vw;
+}
+
+img {
+	display: none;
+}
+
 }
 
 /*Więcej niż 1170px*/
 
 @media (min-width:1171px) {
-
-
 	body {
 		background-color: yellow;
 	}
-
 }
