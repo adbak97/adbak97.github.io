@@ -42,16 +42,12 @@
 		right: 8vw;
 		top: 15vw
 	}
-
-
 	#opis h2 span {
 		font-size: 2vw;
 	}
-
 	img {
 		display: none;
 	}
-
 }
 
 /*Więcej niż 1170px*/
@@ -63,25 +59,19 @@
 		background-repeat: no-repeat;
 		max-width: 100%;
 		max-height: 100%;
-
+		background-attachment: local;
 	}
 	#opis {
 		position: absolute;
 		left: 5vw;
-		top: 50vh;
+		top: 35vw;
+		color: white
 	}
-
-
 	#opis h2 span {
 		font-size: 2vw;
 	}
-
 	img {
 		display: none;
 	}
 
-
-	img {
-		display: none;
-	}
 }
