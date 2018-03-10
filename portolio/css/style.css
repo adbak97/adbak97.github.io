@@ -272,6 +272,7 @@ input[type="submit"] {
 		margin: 0px;
 		padding: 0px;
 		font-size: 20px;
+		overflow-y: hidden;
 	}
 	#main-nav {}
 	#main-header {
