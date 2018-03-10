@@ -8,43 +8,76 @@
 /*Mniej niż 992px*/
 
 @media (max-width:992px) {
-	body {
+	#picture1 {
 		background-image: url(../img/man-1.jpg);
-		background-size: auto 50vh;
+		background-size: cover;
 		background-repeat: no-repeat;
+		height: 50vh;
 	}
-	#opis {
-
+	#picture1 h2 {
+		text-align: center;
 		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translateX(-50%)
-	}
-	#opis h2 span {
+		top: 50vh;
 		left: 50%;
 		transform: translateX(-50%);
-		
+
 	}
+	#picture2 {
+		display: none
+	}
+	#picture3 {
+		display: none
+	}
+
 }
 
 /*Więcej niż 992px*/
 
 @media (min-width:993px) AND (max-width:1170px) {
-	body {
+	#picture2 {
 		background-image: url(../img/man-2.jpg);
-		background-size: auto 70vh;
+		background-size: cover;
 		background-repeat: no-repeat;
+		height: 70vh;
+	}
+
+	#picture2 h2 {
+		position: absolute;
+		right: 5vw;
+		top: 10vw;
+		color: white;
+	}
+
+	#picture1 {
+		display: none;
+	}
+	#picture3 {
+		display: none;
 	}
 }
 
 /*Więcej niż 1170px*/
 
 @media (min-width:1171px) {
-	body {
+	#picture3 {
 		background-image: url(../img/man-1.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
-		background-attachment: fixed;
+		height: 100vh;
+	}
+
+	#picture3 h2 {
+		position: absolute;
+		left: 15vw;
+		top: 50%;
+		transform: translateX(-50%);
+		color: white;
+	}
+
+	#picture1 {
+		display: none;
+	}
+	#picture2 {
+		display: none;
 	}
 }
