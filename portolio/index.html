@@ -8,10 +8,36 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
 </head>
+<script type="text/javascript">
+	document.getElementById("menu").addEventListener("click", myFunction);
+
+	function myFunction() {
+		document.getElementById("menulist").innerHTML = menu.style.display = "inherit";
+	}
+
+</script>
 
 <body>
 
 	<nav id="main-nav">
+		<div id="menu" onclick="myFunction()">Menu
+			<div id="menulist">
+				<ul>
+					<div>
+						<li><a href="#about-me">O mnie</a></li>
+					</div>
+					<div>
+						<li><a href="#skills">Umiejętności</a></li>
+					</div>
+					<div>
+						<li><a href="#portfolio">Portfolio</a></li>
+					</div>
+					<div>
+						<li><a href="#contact">Kontakt</a></li>
+					</div>
+				</ul>
+			</div>
+		</div>
 		<ul>
 			<li><a href="#about-me">O mnie</a></li>
 			<li><a href="#skills">Umiejętności</a></li>

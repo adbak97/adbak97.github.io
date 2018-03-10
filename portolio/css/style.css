@@ -19,6 +19,14 @@ body {
 	z-index: 1;
 }
 
+#menu {
+	display: none;
+}
+
+#skills {
+	width: 100vw
+}
+
 #main-nav ul li {
 	padding: 1rem;
 	display: inline-block;
@@ -61,6 +69,7 @@ body {
 #main-header .header-content h2 {
 	font-size: 3rem;
 	font-weight: 10;
+	width: 100vw;
 }
 
 #about-me {
@@ -91,12 +100,14 @@ body {
 }
 
 #skills #icons figure {
-	float: left;
 	display: inline-block;
 	text-align: center;
 	position: relative;
-	left: 50%;
-	transform: translateX(50%);
+}
+
+#skills #icons {
+	display: inline-block;
+	text-align: center;
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
@@ -131,9 +142,10 @@ h2 span {
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 	position: relative;
 	font-size: initial;
+	left: 5%;
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
@@ -146,6 +158,7 @@ h2 span {
 
 #portfolio .portfolio-items #portfolio-item-3 {
 	background-image: url(../img/portfolio3.jpg);
+	float: left;
 }
 
 #portfolio .portfolio-item-mask {
@@ -194,7 +207,7 @@ h2 span {
 
 #contact {
 	width: 100vw;
-	height: 500px;
+	overflow: hidden;
 	font-size: 10px;
 	background-color: #213b50;
 	padding: 3rem;
@@ -252,4 +265,103 @@ input[type="submit"] {
 
 #contact #name {
 	font-size: 45px;
+}
+
+@media (max-width:1023px) {
+	body {
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+		font-size: 20px;
+	}
+	#main-nav {}
+	#main-header {
+		background-size: cover;
+		position: relative;
+	}
+	#main-header .header-content h1 {
+		font-size: 8vw;
+	}
+	#main-header .header-content h2 {
+		font-size: 5vw;
+	}
+	#about-me figure {
+		position: relative;
+		left: 50vw;
+		transform: translatex(-50%);
+	}
+	#about-me figure img {
+		max-width: 100%;
+		height: auto;
+	}
+	.about-content {
+		float: left;
+	}
+	#portfolio .portfolio-item {
+		height: 350px;
+		background-size: cover;
+		background-position: center;
+		display: inline-block;
+		width: 95%;
+		position: relative;
+		font-size: initial;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#contact {
+		height: auto;
+	}
+	#data {
+		font-size: 0.5rem;
+	}
+	#form {
+		float: left;
+		margin-top: 200px;
+	}
+	input,
+	textarea {
+		background-color: #2b4a64;
+		border: none;
+		height: 50px;
+	}
+	input:focus {
+		background-color: #4e708c;
+		border: none;
+	}
+	.margin {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 70vw;
+	}
+	#wiadomosc {
+		height: 100px;
+		width: 70vw;
+	}
+	input[type="submit"] {
+		width: 50px;
+		background-color: green;
+		color: white;
+		border: none;
+		text-align: center;
+		float: left;
+	}
+	.div {
+		margin-top: 10px;
+	}
+	#contact #name {
+		font-size: 45px;
+	}
+	#main-nav ul li {
+		padding: 1rem;
+		display: inline-block;
+		float: right;
+		margin-right: 1rem;
+		display: none;
+	}
+	#menu {
+		display: inherit;
+		text-align: right;
+		margin-right: 2.5rem;
+		margin-top: 1rem;
+	}
 }
