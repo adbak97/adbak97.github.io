@@ -1,3 +1,4 @@
+/*
 ////instrukcja if
 //var zmienna1 = "Kot";
 //var zmienna2 = "Pies";
@@ -12,7 +13,7 @@
 //	console.log("nie spełniam warunku")
 //}
 ////Instrukcja else if
-//*/
+//
 //
 //
 //var mojaLiczba = 112;
@@ -41,4 +42,6 @@ switch (kolor) {
 	case "zielony":
 		console.log("kolor zielony");
 		break;
-}
+	default:
+		console.log("nie znalazlem dopasowania");
+}*/
