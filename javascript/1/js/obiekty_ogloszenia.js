@@ -1,3 +1,5 @@
+/*
+
 class ogloszenia {
 	constructor(tytul, tresc, cena, kategoria) {
 		this.tytul = tytul;
@@ -9,13 +11,15 @@ class ogloszenia {
 	}
 	wyswietl() {
 		var ogloszenie = "Tytuł ogłoszenia: " + this.tytul + "\n Treść: " + this.tresc + "\n Cena: " + this.cena + "\n Kategoria: " + this.kategoria;
-
-		return ogloszenie;
+		console.log(ogloszenie);
+//		return ogloszenie;
 	}
 
 }
 
 var ogloszenie1 = new ogloszenia("Samochód", "Dobra furka", 45500, "Motoryzacja");
 
-var ogloszenieDoWyswietlenia = ogloszenie1.wyswietl();
-console.log(ogloszenieDoWyswietlenia);
+/*var ogloszenieDoWyswietlenia = ogloszenie1.wyswietl();
+//console.log(ogloszenieDoWyswietlenia);
+*/
+*/
