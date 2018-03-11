@@ -1,3 +1,4 @@
+/*
 function wyswietlWKonsoli() {
 	console.log("Adrian Bak");
 }
@@ -17,5 +18,10 @@ function obliczPodatek(kwota, procentPodatek) {
 	return wynik.toFixed(2);
 
 }
+
+function wyswietlWynik() {
+	document.write();
+}
 var obliczenia1 = obliczPodatek(4990, 23);
-console.log(obliczenia1);
+wyswietlWynik(obliczenia1);
+*/
