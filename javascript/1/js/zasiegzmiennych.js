@@ -9,7 +9,6 @@ function wyswietlZmienna() {
 
 wyswietlZmienna();
 console.log(zmiennaLokalna);
-*/
 
 var zmienna = "Zmienna globalna";
 
@@ -19,4 +18,4 @@ function pokazZmienna() {
 }
 
 pokazZmienna();
-console.log(zmienna);
+console.log(zmienna);*/
