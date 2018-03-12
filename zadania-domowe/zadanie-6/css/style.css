@@ -46,12 +46,13 @@ body {
 	}
 	main #picture1 {
 		background-image: url(jpg/product-1.jpg);
-		top: 10px;
+
 		background-position: 40%;
 	}
 	main #picture2 {
 		background-image: url(jpg/product-2.jpg);
 		background-position: 55%;
+
 	}
 	main #picture3 {
 		background-image: url(jpg/product-3.jpg);
