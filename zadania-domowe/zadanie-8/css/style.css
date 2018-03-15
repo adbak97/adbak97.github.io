@@ -37,6 +37,7 @@ h1 {
 	height: 20vw;
 	width: 60vw;
 	opacity: 0;
+	animation: 2s count;
 }
 
 #animation_11 {
@@ -45,52 +46,42 @@ h1 {
 }
 
 #animation_1 {
-	animation: 2s count;
 	animation-delay: 20s;
 }
 
 #animation_2 {
-	animation: 2s count;
 	animation-delay: 18s;
 }
 
 #animation_3 {
-	animation: 2s count;
 	animation-delay: 16s;
 }
 
 #animation_4 {
-	animation: 2s count;
 	animation-delay: 14s;
 }
 
 #animation_5 {
-	animation: 2s count;
 	animation-delay: 12s;
 }
 
 #animation_6 {
-	animation: 2s count;
 	animation-delay: 10s;
 }
 
 #animation_7 {
-	animation: 2s count;
 	animation-delay: 8s;
 }
 
 #animation_8 {
-	animation: 2s count;
 	animation-delay: 6s;
 }
 
 #animation_9 {
-	animation: 2s count;
 	animation-delay: 4s;
 }
 
 #animation_10 {
-	animation: 2s count;
 	animation-delay: 2s;
 }
 
