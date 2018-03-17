@@ -1,3 +1,4 @@
+/*
 //pobieram instniejacy element
 var istniejacyWezel = document.getElementById("output");
 
@@ -30,4 +31,4 @@ var link = document.getElementsByClassName('superlink')[0];
 var br = document.createElement("br");
 link.parentElement.insertBefore(br, link);
 
-link.removeAttribute('class');
+link.removeAttribute('class');*/
