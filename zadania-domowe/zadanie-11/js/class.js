@@ -6,32 +6,33 @@ class Ksiazka {
 
 	}
 	opiszKiazke() {
-		console.log("Ksiazka ma tytul: " + this.tytul + ", autorem jest: " + this.autor + " i jest " + this.przeczytana);
-	}
-}
+		console.log("Ksiazka ma tytul: " + this.tytul + ", autorem jest: " + this.autor + " i jest " + this.przeczytana;
 
-
-var ksiazka1 = new Ksiazka("Harry Potter", "J.K Rownling", true);
-
-
-var ksiazka2 = new Ksiazka("Igrzyska Smierci", "Suzanne Colins", false);
-var ksiazka3 = new Ksiazka("Kubus Puchatek", "A.A Milne", false);
-
-var tablica = [ksiazka1, ksiazka2, ksiazka3, ];
-
-function iloscPrzeczytanych(tablica) {
-	var czyPrzeczytane = 0;
-	tablica.forEach(function (element, index) {
-		element.opiszKiazke();
-		if (element.przeczytana == true) {
-
-			czyPrzeczytane++;
 		}
-
-	});
-	console.log("Ilość przeczytanych książek: " + czyPrzeczytane);
+	}
 
 
-}
+	var ksiazka1 = new Ksiazka("Harry Potter", "J.K Rownling", true);
 
-iloscPrzeczytanych(tablica);
+
+	var ksiazka2 = new Ksiazka("Igrzyska Smierci", "Suzanne Colins", false);
+	var ksiazka3 = new Ksiazka("Kubus Puchatek", "A.A Milne", false);
+
+	var tablica = [ksiazka1, ksiazka2, ksiazka3, ];
+
+	function iloscPrzeczytanych(tablica) {
+		var czyPrzeczytane = 0;
+		tablica.forEach(function (element, index) {
+			element.opiszKiazke();
+			if (element.przeczytana == true) {
+
+				czyPrzeczytane++;
+			}
+
+		});
+		console.log("Ilość przeczytanych książek: " + czyPrzeczytane);
+
+
+	}
+
+	iloscPrzeczytanych(tablica);
