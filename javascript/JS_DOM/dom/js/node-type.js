@@ -1,3 +1,4 @@
+/*
 var parFirst = document.getElementById("parFirst");
 var parFirstNodes = parFirst.childNodes;
 
@@ -11,3 +12,4 @@ for (var i = 0; i < parFirstNodes.lengt; i++) {
 
 
 }
+*/
