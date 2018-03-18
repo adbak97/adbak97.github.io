@@ -15,7 +15,9 @@ newElement.appendChild(newElementContent);
 //dodaje do paragrafu atrybut class="text"
 
 newElement.setAttribute('class', 'text paragrafu');
+
 //wstawiam nasz przygotowany paragraf do div#output
+
 console.log(istniejacyWezel);
 istniejacyWezel.appendChild(newElement);
 
