@@ -1,0 +1,66 @@
+body,
+html {
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+	color: wheat;
+	font-size: 5vw;
+	text-align: center;
+}
+
+#calc {
+	top: 10vw;
+	position: absolute;
+	left: 30vw;
+	width: 40vw;
+	height: 60vw;
+	background-color: #FFA500;
+}
+
+font {
+	color: wheat;
+}
+
+.buttons {
+
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 10%;
+	background-color: black;
+	width: 15%;
+	float: left;
+}
+
+#display {
+	background-color: gray;
+	width: 75%;
+	margin-left: 10%;
+	margin-top: 5%;
+	text-align: right;
+
+
+}
+
+#del {
+	width: 35%;
+	background-color: #3FB2C3;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+
+
+.buttons:nth-child(5) {
+	clear: both;
+}
+
+.buttons:nth-child(4n+5) {
+	margin-left: 10%;
+}
+
+#zero {
+	width: 35%;
+	margin-top: 5%;
+	margin-left: 10%;
+
+}
