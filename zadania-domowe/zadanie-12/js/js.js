@@ -30,11 +30,7 @@ procent.addEventListener("click", function (e) {
 	alert("EEEE Synek procenty nie działają");
 });
 dodawanie.addEventListener("click", function (e) {
-	oldContent = display.innerHTML; //tutaj w jquery mozna by użyć appendChild(), albo insertBefore
-
-	console.log(oldContent);
-
-	//Number(x);
+	oldContent = display.innerHTML;
 	display.innerHTML = oldContent + '+';
 	firstAmount = Number(oldContent);
 	flaga = 1;
@@ -113,12 +109,14 @@ function calculate(firstAmount, secondAmount) {
 
 		case 1:
 			console.log("dodawanie");
+
 			var wynik = eval(firstAmount + secondAmount);
 			display.innerHTML = wynik;
 			break;
 		case 2:
 
 			console.log("odejmowanie");
+
 			var wynik = eval(firstAmount - secondAmount);
 			display.innerHTML = wynik;
 			break;
@@ -141,7 +139,8 @@ rownaSie.addEventListener('click', function () {
 	console.log(oldOldContent.length);
 	secondAmount = secondAmount.substr(oldOldContent.length);
 	console.log(secondAmount);
-
+	secondAmount = Number(secondAmount);
+	console.log(typeof secondAmount);
 	calculate(firstAmount, secondAmount);
 });
 console.log("FLAGA: " + flaga);
