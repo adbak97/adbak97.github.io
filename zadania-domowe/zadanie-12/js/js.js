@@ -17,6 +17,13 @@ var liczba6 = document.getElementById('6');
 var liczba7 = document.getElementById('7');
 var liczba8 = document.getElementById('8');
 var liczba9 = document.getElementById('9');
+
+
+
+
+
+
+
 var flaga = 0; //w zaleznosci od liczby, program bedzie wiedział jakie zadanko arytmetyczne wykonac
 var firstAmount = 0;
 var secondAmount = 0;
