@@ -25,19 +25,15 @@ $('.slide-show').find('.single-slide').each(function (index) {
 
 
 });
-/*
-$('.next-slide').click(function () {
+$(".next-slide").on("click", function () {
+	console.log('Dzialaj kurde pliska');
+});
+
+$('.np').click(function () {
 	console.log("dziala?");
-	slide(slideIndex - 1);
-})
-$('.next-slide').click(function () {
 	slide(slideIndex + 1);
 })
-*/
 
-$('.next-slide').on('click', function () {
-	console.log("dziala?");
-})
 
 
 function slide(newSlideIndex) {
