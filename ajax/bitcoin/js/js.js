@@ -11,10 +11,10 @@ function pobierzDane() {
 		dataType: "json",
 		success: function (resultJSON) {
 			console.log(resultJSON.PLN);
-			$("#kupno").text(parseFloat(resultJSON.PLN.buy));
-			$("#sprzedaz").text(resultJSON.PLN.sell);
 			newBuy = resultJSON.PLN.buy;
-			oldSell = resultJSON.PLN.sell;
+			newSell = resultJSON.PLN.sell;
+			$("#kupno").text(newBuy.toFixed(2));
+			$("#sprzedaz").text(newSell.toFixed(2));
 		},
 		onerror: function (msg) {
 			console.log(msg);
@@ -25,10 +25,8 @@ function pobierzDane() {
 function color() {
 	console.log(newBuy);
 	var oldBuy = $('#kupno').text();
-
 	console.log(oldBuy);
 	var oldSell = $('#sprzedaz').text();
-
 	console.log(oldSell);
 	if (oldBuy > $('#kupno').text()) {
 		console.log("old baj jest wieksza");
