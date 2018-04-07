@@ -1,0 +1,77 @@
+#header {
+	position: relative;
+	background-image: url("../img/header/pictures_on_the_wall.jpg");
+	/*	background-position: left;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-size: 2vw;
+	/*position: fixed;*/
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+	font-size: 2vw;
+}
+
+.header-content {
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-200%)
+}
+
+.btn-info {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+#view-more {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#services {
+	margin-top: 3vw;
+	text-align: center;
+	font-size: 20px;
+}
+
+.row {
+	margin-top: 5vw;
+}
+
+.circle {
+	position: relative;
+	display: inline-block;
+
+	background-color: #4F96A1;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+
+i {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	right: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.alt {
+	display: block;
+	font-weight: bold;
+}
