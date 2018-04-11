@@ -248,6 +248,13 @@ form input[type="submit"]:hover {
 	float: right;
 }
 
+.fab {
+	font-size: 3vw;
+	float: left;
+	margin-left: 1vw;
+}
+
+
 #footer {
 	margin-top: 80px;
 	color: white;
