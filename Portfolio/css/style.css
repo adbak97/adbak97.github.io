@@ -255,8 +255,9 @@ form input[type="submit"]:hover {
 }
 
 
+
 #footer {
-	margin-top: 80px;
+	margin-top: 400px;
 	color: white;
 	background-color: #1ac056;
 	display: inline-block;
@@ -302,22 +303,8 @@ form input[type="submit"]:hover {
 	.contact-section {
 		width: 100%;
 	}
-	#footer {
-		margin-top: 410px;
-	}
-	/* Small devices (portrait tablets and large phones, 600px and up) */
-	@media only screen and (min-width: 600px) {
-		...
-	}
-	/* Medium devices (landscape tablets, 768px and up) */
-	@media only screen and (min-width: 768px) {
-		...
-	}
-	/* Large devices (laptops/desktops, 992px and up) */
-	@media only screen and (min-width: 992px) {
-		...
-	}
-	/* Extra large devices (large laptops and desktops, 1200px and up) */
-	@media only screen and (min-width: 1200px) {
-		...
+	.fab {
+		font-size: 8vw;
+		float: left;
+		margin-left: 4vw;
 	}
