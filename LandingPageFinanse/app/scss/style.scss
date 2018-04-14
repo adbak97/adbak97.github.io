@@ -1,0 +1,54 @@
+@import "zmienne";
+/*@import "mixins";*/
+
+body {
+	overflow-x: hidden;
+
+	i {
+		color: $zolty;
+		font-size: 40px;
+	}
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+
+	#main {
+		width: 100vw;
+		height: 80vh;
+		background-image: url(../img/background.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+	#main #finanse h2,
+	#main #kontakt h2 {
+		display: inline-block;
+	}
+	#main #finanse {
+		position: absolute;
+		left: 10vw;
+		top: 1vw;
+	}
+	#main #kontakt h2 span {
+		display: block;
+
+	}
+	#main #kontakt {
+		position: absolute;
+		right: 10vw;
+		top: 1vw;
+	}
+
+	#footer {
+		height: 40vh;
+		width: 100vw;
+		background-color: $szary;
+	}
+
+
+
+
+}
