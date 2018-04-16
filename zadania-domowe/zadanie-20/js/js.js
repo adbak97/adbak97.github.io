@@ -74,45 +74,6 @@ function sort(workers) {
 
 
 
-/*var N = workers.length;
-for (var i = 0; i < N - 1; i++) {
-	var pmin = i;
-	for (var y = i + 1; y < N; y++) {
-		if (workers[y].godziny < workers[y + 1].godziny) pmin = y; {
-			var temp = workers[y];
-			workers[y] = workers[y + 1];
-			workers[y + 1] = temp;
-		}
-	}
-}
-return console.log(workers);*/
-/*	var d = workers;
-	var N = d.length;
-	var pmin, tmp;
-	for (var i = 0; i < N - 1; i++) {
-		pmin = i;
-		for (j = i + 1; j < N; j++)
-			if (d[j].godziny < d[pmin].godziny) pmin = j;
-		tmp = d[pmin];
-		d[pmin] = d[i];
-		d[i] = tmp;
-	}
-	return workers;
-};*/
-/*for (var i = 0; i < workers.length; i++) {
-
-		for (var y = 0; y < workers.length - 1; y++) {
-
-			if (workers[y + 1].godziny < workers[y].godziny) {
-				var temp = workers[y];
-				workers[y] = workers[y + 1];
-				workers[y + 1] = temp;
-			}
-		}
-	}*/
-//return workers;
-
-/*}*/
 
 
 
