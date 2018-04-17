@@ -1,0 +1,15 @@
+h1 {
+	transition: all 2s;
+}
+
+#parFirst {
+	width: 600px;
+	height: 200px;
+	background-color: bisque;
+
+}
+
+#par2 {
+	padding: 10px;
+	background-color: aquamarine;
+}

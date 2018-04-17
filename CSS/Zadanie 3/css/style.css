@@ -1,0 +1,102 @@
+main {
+	width: 400px;
+	height: 400px;
+}
+
+.square {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	background-color: blue;
+	float: left;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+
+.minicircle {
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	background-color: whitesmoke;
+	left: 27px;
+	top: 27px;
+	border: solid 1px;
+	border-color: black;
+	border-radius: 50px;
+}
+
+
+.square:nth-child(1) {
+	background-color: red;
+}
+
+.square:nth-child(2) {
+	background-color: blue;
+}
+
+.square:nth-child(3) {
+	background-color: green;
+}
+
+.square:nth-child(4) {
+	background-color: yellow;
+}
+
+.square:nth-child(5) {
+	background-color: black;
+}
+
+.square:nth-child(6) {
+	background-color: orange;
+}
+
+.square:nth-child(7) {
+	background-color: darkviolet;
+}
+
+.square:nth-child(8) {
+	background-color: gray;
+}
+
+.square:nth-child(9) {
+	background-color: pink;
+}
+
+#minisquare1 {
+	background-color: pink;
+}
+
+#minisquare2 {
+	background-color: grey;
+	border-color: darkblue;
+}
+
+#minisquare3 {
+	background-color: darkviolet;
+
+}
+
+#minisquare4 {
+	background-color: green;
+
+}
+
+#minisquare5 {
+	background-color: red;
+}
+
+#minisquare6 {
+	background-color: blue;
+}
+
+#minisquare7 {
+	background-color: orange;
+}
+
+#minisquare8 {
+	background-color: yellow;
+}
+
+#minisquare9 {
+	background-color: black;
+}
