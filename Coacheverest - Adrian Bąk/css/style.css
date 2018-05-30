@@ -22,8 +22,12 @@ header {
 	background-position: center;
 	background-size: cover;
 	margin: 0 auto;
+
 }
 
+#logo {
+	height: inherit;
+}
 
 .nav-class {
 	position: relative;
