@@ -1,0 +1,12 @@
+Zmiany wzglêdem aktualnej zak³adki "Po co jesteœmy"
+
+1. Pozioma linia w kolorze pomarañczu, kolor jak z logo
+2. Zmiana czcionki menu, na bardziej spójn¹ z logo oraz motto poni¿ej.
+3. Inny efekt po najechaniu myszk¹ na menu
+4. Na pierwszym planie Twoja oferta.
+
+
+
+Na spotkaniu wspomina³eœ ,¿e nie podoba Ci siê ta pozioma animacja uruchamiana po klikniêciu w elementy menu. Dlatego ja proponujê aby strona by³a jedna tzn. wszystkie elementy strony by³y jeden pod drugim (aktualnie tak wygl¹da 90% stron takich jak twoje tak zwane "landing page"). Oczywiœcie menu by pozosta³o, w przebudowane by u³atwiæ przegladaj¹cemu nawigacje, z t¹ ró¿nic¹ ¿e by by³o ca³y czas widoczne dla u¿ytkownika nawet podczas przegl¹dacnia treœci "spod do³u strony".
+
+Poni¿ej te zielone t³a to oczywiœcie tymczasowe rozwi¹zanie ;), docelowo w tym miejscu by by³y sekcje z menu na aktualnej stronie.
