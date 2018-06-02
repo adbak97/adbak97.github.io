@@ -161,12 +161,11 @@ section #content-text ul li {
 .topnav a {
 	display: inline-block;
 
-	color: #f2f2f2;
-	padding-bottom: 2vw;
-	text-decoration: none;
+
 	padding: 2.15vw;
-	color: black;
+
 	margin-top: 1vw;
+
 }
 
 /* Change the color of links on hover */
@@ -203,6 +202,7 @@ section #content-text ul li {
 		float: right;
 		display: block;
 		color: #EE7203;
+		font-size: 40px;
 	}
 }
 
