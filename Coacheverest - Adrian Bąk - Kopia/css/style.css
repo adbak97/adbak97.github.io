@@ -4,6 +4,7 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
 }
 
 main {
@@ -27,38 +28,7 @@ header {
 	height: inherit;
 }
 
-/*
-nav {
-	opacity: 1;
-}
 
-.nav-class {
-	position: relative;
-	width: 80vw;
-	top: 0;
-	text-align: center;
-	z-index: 1;
-}
-
-nav ul {
-	list-style: none;
-	border-top: 1px solid;
-	border-top-color: #EE7203;
-	height: 5vw;
-}
-
-nav li {
-	display: inline-block;
-	padding: 2vw;
-}
-
-nav li:hover {
-	font-weight: bolder;
-	border-bottom: 1px solid;
-	border-bottom-color: #EE7203;
-	cursor: pointer;
-
-}*/
 
 article {
 	text-align: justify;
@@ -111,6 +81,12 @@ section #content-text ul li {
 #content-img figure {
 	display: flex;
 	justify-content: center;
+
+}
+
+#content-img figure img {
+	width: auto;
+	height: auto;
 }
 
 .test {
@@ -160,7 +136,7 @@ section #content-text ul li {
 
 .topnav a {
 	display: inline-block;
-
+	margin-bottom: 1px;
 
 	padding: 2.15vw;
 
@@ -172,6 +148,7 @@ section #content-text ul li {
 
 .topnav a:hover {
 	font-weight: bolder;
+	margin-bottom: auto;
 	border-bottom: 1px solid;
 	border-bottom-color: #EE7203;
 	cursor: pointer;
@@ -202,7 +179,37 @@ section #content-text ul li {
 		float: right;
 		display: block;
 		color: #EE7203;
-		font-size: 40px;
+		font-size: 10vw;
+	}
+	header {
+		width: 85vw;
+		height: 15vh;
+		background-image: url(../images/CE_logotyp%20png.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 115%;
+		margin: 0 auto;
+	}
+	article h1 {
+		font-size: 25px;
+	}
+	article h3 {
+		font-size: 15px;
+	}
+	#content-img {
+		width: 40vw;
+		clear: both;
+	}
+	#content-text {
+		width: 100vw;
+
+	}
+	section #content-text ul {
+		list-style: none;
+		font-size: 19px;
+		margin-top: 23px;
+		margin-left: -40px;
+		transform: translateY(0%);
 	}
 }
 
