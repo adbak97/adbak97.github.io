@@ -81,8 +81,8 @@ section #content-text ul li {
 }
 
 #content-img figure img {
-	width: 100vw;
-	height: 80%;
+	width: 100%;
+	height: 100%;
 }
 
 .test {
