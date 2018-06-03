@@ -11,7 +11,6 @@ main {
 	margin: 0 auto;
 	width: 80vw;
 	height: auto;
-
 }
 
 header {
@@ -27,8 +26,6 @@ header {
 #logo {
 	height: inherit;
 }
-
-
 
 article {
 	text-align: justify;
@@ -81,12 +78,11 @@ section #content-text ul li {
 #content-img figure {
 	display: flex;
 	justify-content: center;
-
 }
 
 #content-img figure img {
-	width: auto;
-	height: auto;
+	width: 80%;
+	height: 80%;
 }
 
 .test {
@@ -118,33 +114,20 @@ section #content-text ul li {
 
 #myTopnav {}
 
-
-
 .topnav {
 	border-top: 1px solid;
 	border-top-color: #EE7203;
 	overflow: hidden;
 	margin-top: 1vw;
 	text-align: center;
-
-
-
-
 }
-
-/* Style the links inside the navigation bar */
 
 .topnav a {
 	display: inline-block;
 	margin-bottom: 1px;
-
 	padding: 2.15vw;
-
 	margin-top: 1vw;
-
 }
-
-/* Change the color of links on hover */
 
 .topnav a:hover {
 	font-weight: bolder;
@@ -154,24 +137,17 @@ section #content-text ul li {
 	cursor: pointer;
 	color: black;
 	text-decoration: none;
-
 }
-
-/* Add an active class to highlight the current page */
 
 .active {
 	color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
-
 .topnav .icon {
 	display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.topnav a {
 		display: none;
 	}
@@ -180,6 +156,8 @@ section #content-text ul li {
 		display: block;
 		color: #EE7203;
 		font-size: 10vw;
+		border-bottom: none;
+
 	}
 	header {
 		width: 85vw;
@@ -197,12 +175,11 @@ section #content-text ul li {
 		font-size: 15px;
 	}
 	#content-img {
-		width: 40vw;
+		width: 80vw;
 		clear: both;
 	}
 	#content-text {
 		width: 100vw;
-
 	}
 	section #content-text ul {
 		list-style: none;
@@ -213,9 +190,7 @@ section #content-text ul li {
 	}
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	.topnav.responsive {
 		position: relative;
 	}
