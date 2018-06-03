@@ -15,19 +15,20 @@ $(document).ready(function () {
 	});
 	$('#2').on("click", function () {
 		$("html, body").animate({
-			scrollTop: 1001
+			scrollTop: $('#oferta').offset().top
 		}, 1000);
+
 		return false;
 	});
 	$('#3').on("click", function () {
 		$("html, body").animate({
-			scrollTop: 2020
+			scrollTop: $('#kontakt').offset().top
 		}, 1000);
 		return false;
 	});
 	$('#4').on("click", function () {
 		$("html, body").animate({
-			scrollTop: 3050
+			scrollTop: $('#kim').offset().top
 		}, 1000);
 		return false;
 	});
