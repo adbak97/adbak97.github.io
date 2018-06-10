@@ -206,10 +206,6 @@ section #content-text ul li {
 
 /* Add a black background color to the top navigation */
 
-#myTopnav {
-	padding-top: 12vw;
-}
-
 .topnav {
 	border-top: 1px solid;
 	border-top-color: #EE7203;
@@ -244,6 +240,9 @@ section #content-text ul li {
 }
 
 @media screen and (max-width: 768px) {
+	#myTopnav {
+		padding-top: 12vw;
+	}
 	.topnav a {
 		display: none;
 	}
