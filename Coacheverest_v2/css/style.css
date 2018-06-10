@@ -1,0 +1,302 @@
+html,
+body {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	margin: 0 auto;
+	width: 80vw;
+	height: auto;
+}
+
+header {
+	width: 50vw;
+	height: 15vh;
+	background-image: url(../images/CE_logotyp%20png.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+	margin: 0 auto;
+}
+
+#logo {
+	height: inherit;
+}
+
+article {
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 10px;
+	color: #087834;
+	height: auto;
+	position: relative;
+	margin-top: 1vw;
+}
+
+article h1 {
+	font-weight: lighter;
+}
+
+article h3 {
+	font-weight: lighter;
+}
+
+section {
+	position: relative;
+	top: 5vw;
+}
+
+section #content-text ul {
+	list-style: none;
+	font-size: 1.5vw;
+	transform: translateY(30%);
+}
+
+.fas {
+	color: #EE7203;
+}
+
+section #content-text ul li {
+	margin-left: 1vw;
+	margin-top: 10px;
+}
+
+#content-text {
+	width: 40vw;
+	float: left;
+}
+
+#content-img {
+	width: 40vw;
+	float: left;
+}
+
+#content-img figure {
+	display: flex;
+	justify-content: center;
+}
+
+#content-img figure img {
+	width: 100vw;
+	height: 100%;
+}
+
+/*Menu zawsze u góry*/
+
+.test {
+	position: fixed;
+	width: 100vw;
+	top: 0;
+	left: -50%;
+	z-index: 1;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	transform: translateX(50%);
+}
+
+.item {
+	clear: both;
+	width: 80vw;
+}
+
+#oferta .item-listing {
+	padding-bottom: 5vw;
+	position: relative;
+	clear: both;
+}
+
+
+#oferta .item-listing:nth-of-type(odd) > .title-content {
+	display: block;
+	width: 60%;
+
+	margin-left: 32vw;
+}
+
+#oferta .item-listing .title-content {
+	display: block;
+	width: 60%;
+}
+
+#oferta .item-listing:nth-of-type(odd) > .title > span {
+	font-size: 2vw;
+	float: right;
+	margin-right: 0.5vw;
+}
+
+
+
+
+.title {
+	padding-top: 5vw;
+}
+
+.title span:before {
+	content: '';
+	background-image: url(../images/favicon.PNG);
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: cover;
+	width: 2vw;
+	height: 1.7vw;
+	position: relative;
+	top: 0px;
+	left: -1vw;
+}
+
+#oferta > .item-listing:nth-child(1) > .title span {
+
+	padding-top: 1vw;
+}
+
+.item-listing:nth-child(1n+2) > .title span {
+	font-size: 2vw;
+	float: left;
+	margin-left: 0.5vw;
+	padding-top: 2vw;
+}
+
+
+
+.title-content span {
+	font-weight: bolder;
+	display: block;
+	color: #EE7203;
+	text-align: center;
+	font-size: 1.4vw;
+	padding-top: 30px;
+	clear: both;
+}
+
+#oferta .item-listing:nth-of-type(odd) > .title-main > span {
+	float: right;
+}
+
+.title-main span {
+	display: block;
+	width: 59%;
+	text-align: justify;
+	font-size: 1vw;
+	margin-top: 2vw;
+}
+
+#oferta .item-listing:nth-of-type(odd) > .picture img {
+	width: 39%;
+	float: left;
+	position: absolute;
+	top: 7vw;
+	left: 0.5vw;
+	border-radius: 8px;
+}
+
+.item-listing .picture img {
+	width: 39%;
+	float: right;
+	position: absolute;
+	top: 7vw;
+	right: 0.5vw;
+	border-radius: 8px;
+}
+
+/*Początek menu responsywnego*/
+
+/* Add a black background color to the top navigation */
+
+#myTopnav {
+	padding-top: 12vw;
+}
+
+.topnav {
+	border-top: 1px solid;
+	border-top-color: #EE7203;
+	overflow: hidden;
+	margin-top: 1vw;
+	text-align: center;
+}
+
+.topnav a {
+	display: inline-block;
+	margin-bottom: 1px;
+	padding: 2.15vw;
+	margin-top: 1vw;
+}
+
+.topnav a:hover {
+	font-weight: bolder;
+	margin-bottom: auto;
+	border-bottom: 1px solid;
+	border-bottom-color: #EE7203;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.active {
+	color: white;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.topnav a {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+		color: #EE7203;
+		font-size: 10vw;
+		border-bottom: none;
+	}
+	header {
+		width: 85vw;
+		height: 15vh;
+		background-image: url(../images/CE_logotyp%20png.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 115%;
+		margin: 0 auto;
+	}
+	article h1 {
+		font-size: 25px;
+	}
+	article h3 {
+		font-size: 15px;
+	}
+	#content-img {
+		width: 100%;
+		clear: both;
+	}
+	#content-text {
+		width: 100vw;
+	}
+	section #content-text ul {
+		list-style: none;
+		font-size: 19px;
+		margin-top: 23px;
+		margin-left: -40px;
+		transform: translateY(0%);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}

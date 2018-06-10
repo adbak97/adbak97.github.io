@@ -1,12 +1,12 @@
-Zmiany wzglêdem aktualnej zak³adki "Po co jesteœmy"
+Zmiany wzglÄ™dem aktualnej zakÅ‚adki "Po co jesteÅ›my"
 
-1. Pozioma linia w kolorze pomarañczu, kolor jak z logo
-2. Zmiana czcionki menu, na bardziej spójn¹ z logo oraz motto poni¿ej.
-3. Inny efekt po najechaniu myszk¹ na menu
+1. Pozioma linia w kolorze pomaraÅ„czu, kolor jak z logo
+2. Zmiana czcionki menu, na bardziej spÃ³jnÄ… z logo oraz motto poniÅ¼ej.
+3. Inny efekt po najechaniu myszkÄ… na menu
 4. Na pierwszym planie Twoja oferta.
 
 
 
-Na spotkaniu wspomina³eœ ,¿e nie podoba Ci siê ta pozioma animacja uruchamiana po klikniêciu w elementy menu. Dlatego ja proponujê aby strona by³a jedna tzn. wszystkie elementy strony by³y jeden pod drugim (aktualnie tak wygl¹da 90% stron takich jak twoje tak zwane "landing page"). Oczywiœcie menu by pozosta³o, w przebudowane by u³atwiæ przegladaj¹cemu nawigacje, z t¹ ró¿nic¹ ¿e by by³o ca³y czas widoczne dla u¿ytkownika nawet podczas przegl¹dacnia treœci "spod do³u strony".
+Na spotkaniu wspominaÅ‚eÅ› ,Å¼e nie podoba Ci siÄ™ ta pozioma animacja uruchamiana po klikniÄ™ciu w elementy menu. Dlatego ja proponujÄ™ aby strona byÅ‚a jedna tzn. wszystkie elementy strony byÅ‚y jeden pod drugim (aktualnie tak wyglÄ…da 90% stron takich jak twoje tak zwane "landing page"). OczywiÅ›cie menu by pozostaÅ‚o, w przebudowane by uÅ‚atwiÄ‡ przegladajÄ…cemu nawigacje, z tÄ… rÃ³Å¼nicÄ… Å¼e by byÅ‚o caÅ‚y czas widoczne dla uÅ¼ytkownika nawet podczas przeglÄ…dacnia treÅ›ci "spod doÅ‚u strony".
 
-Poni¿ej te zielone t³a to oczywiœcie tymczasowe rozwi¹zanie ;), docelowo w tym miejscu by by³y sekcje z menu na aktualnej stronie.
+PoniÅ¼ej te zielone tÅ‚a to oczywiÅ›cie tymczasowe rozwiÄ…zanie ;), docelowo w tym miejscu by byÅ‚y sekcje z menu na aktualnej stronie.

@@ -33,13 +33,13 @@ header {
 	position: relative;
 	width: 80vw;
 	top: 0;
-
+	text-align: center;
 	z-index: 1;
 }
 
 nav ul {
 	list-style: none;
-	text-align: center;
+
 	border-top: 1px solid;
 	border-top-color: #EE7203;
 	height: 5vw;
@@ -58,7 +58,6 @@ nav li:hover {
 	border-bottom-color: #EE7203;
 	cursor: pointer;
 }
-
 
 
 article {
