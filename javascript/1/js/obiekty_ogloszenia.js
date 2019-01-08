@@ -22,4 +22,4 @@ var ogloszenie1 = new ogloszenia("Samochód", "Dobra furka", 45500, "Motoryzacja
 /*var ogloszenieDoWyswietlenia = ogloszenie1.wyswietl();
 //console.log(ogloszenieDoWyswietlenia);
 */
-*/
+
