@@ -1,0 +1,25 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+input{
+    position: absolute;
+    left: 160px;
+}
+span{
+margin-left: 50px;
+}
+h3 {
+    margin-left: 25px;
+}
+canvas {
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    
+}

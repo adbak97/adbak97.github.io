@@ -1,0 +1,14 @@
+body,html{
+    box-sizing: border-box;
+}
+
+.img-zoom {
+    max-width: 300px;
+    display:block;
+    padding: 30px;
+    margin-top: 80px;
+}
+h1 {
+    position: fixed;
+   
+}

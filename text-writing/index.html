@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <p id="demo"></p>
+    
+    
+    
+    <p id="start">
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus aspernatur amet molestiae repudiandae laboriosam veritatis accusantium, est voluptas deserunt! Temporibus, id, dolore odio ratione eum amet alias sed neque facere, fuga dignissimos quaerat numquam reprehenderit, minima ipsam sapiente nam! Quasi est a dolore nostrum, facilis reiciendis fugit officia omnis saepe illum pariatur quibusdam dolores tempore iure praesentium
+   
+    
+     <br><br><br><br>
+       voluptate voluptas, accusantium iusto atque obcaecati perferendis voluptatum beatae ab deleniti ducimus! Deleniti voluptatem officia dolore, quis beatae corporis dolorum impedit culpa asperiores sit, officiis. Rem iste ipsum asperiores, sed placeat corporis repellendus a, provident error omnis eius, fuga, cupiditate rerum qui.
+    </p>
+    
+    
+    
+    
+<script>
+    
+function writing(){    
+let i = 0;
+let txt = document.getElementById("start").textContent;
+
+//let speed = 30;
+typeWriter();    
+function typeWriter() {
+  
+    if (i < txt.length) {
+     
+    document.getElementById("start").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, 15);
+        
+      }
+     }
+    
+    }
+    
+    writing();
+    
+    
+
+    
+</script>
+    
+    
+</body>
+</html>
