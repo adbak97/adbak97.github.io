@@ -53,7 +53,7 @@ function revealCard(nr)
 		
 		//alert(nr);
 	
-		var obraz = "url(img/" + cards[nr] + ")";
+		var obraz = "url(pamiec/img/" + cards[nr] + ")";
 		
 		$('#c'+nr).css('background-image', obraz);
 		$('#c'+nr).addClass('cardA');
@@ -103,7 +103,7 @@ function hide2Cards(nr1, nr2)
 	
 	if(pairsLeft == 0)
 	{
-		$('.board').html('<h1>You win!<br>Done in '+turnCounter+' turns</h1>');
+		$('.board').html('<h1>Brawo Paulina!<br>Udało Ci się rozwiązać zagadkę w '+turnCounter+' ruchach. Pierwsza cyfra pinu to: 1</h1>');
 	}
 	
 	lock = false;
@@ -111,11 +111,11 @@ function hide2Cards(nr1, nr2)
 
 function restore2Cards(nr1, nr2)
 {
-	$('#c'+nr1).css('background-image', 'url(img/karta.png)');
+	$('#c'+nr1).css('background-image', 'url(pamiec/img/karta.png)');
 	$('#c'+nr1).addClass('card');
 	$('#c'+nr1).removeClass('cardA');	
 
-	$('#c'+nr2).css('background-image', 'url(img/karta.png)');
+	$('#c'+nr2).css('background-image', 'url(pamiec/img/karta.png)');
 	$('#c'+nr2).addClass('card');
 	$('#c'+nr2).removeClass('cardA');
 	

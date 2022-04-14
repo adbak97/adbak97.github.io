@@ -1,11 +1,11 @@
-var haslo = "Test";
+var haslo = "Paulina ukochana szwagierka";
 haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
 var ile_skuch = 0;
 
-var yes = new Audio("yes.wav");
-var no = new Audio("no.wav");
+var yes = new Audio("szubienica/yes.wav");
+var no = new Audio("szubienica/no.wav");
 
 var haslo1 = "";
 
@@ -125,14 +125,14 @@ function sprawdz(nr)
 		//skucha
 		ile_skuch++;
 		var obraz = "img/s"+ ile_skuch + ".jpg";
-		document.getElementById("szubienica").innerHTML = '<img src="'+obraz+'" alt="" />';
+		document.getElementById("szubienica").innerHTML = '<img src="szubienica/'+obraz+'" alt="" />';
 	}
 	
 	//wygrana
 	if (haslo == haslo1)
-	document.getElementById("alfabet").innerHTML  = "Tak jest! Podano prawidłowe hasło: "+haslo+'<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+	document.getElementById("alfabet").innerHTML  = "Cyfra kodu pin nr 2, zapytaj Patrycje";
 	
 	//przegrana
 	if (ile_skuch>=9)
-	document.getElementById("alfabet").innerHTML  = "Przegrana! Prawidłowe hasło: "+haslo+'<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
+	document.getElementById("alfabet").innerHTML  = "Przegrana!" +'<br /><br /><span class="reset" onclick="location.reload()">JESZCZE RAZ?</span>';
 }
