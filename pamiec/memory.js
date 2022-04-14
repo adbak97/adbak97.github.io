@@ -103,7 +103,7 @@ function hide2Cards(nr1, nr2)
 	
 	if(pairsLeft == 0)
 	{
-		$('.board').html('<h1>Brawo Paulina!<br>Udało Ci się rozwiązać zagadkę w '+turnCounter+' ruchach. Pierwsza cyfra pinu to: 1</h1>');
+		$('.board').html('<h1>Brawo Paulina!<br>Udało Ci się rozwiązać zagadkę w '+turnCounter+' ruchach. Pierwsza cyfra pinu to: 6</h1>');
 	}
 	
 	lock = false;

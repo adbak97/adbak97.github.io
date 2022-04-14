@@ -130,7 +130,7 @@ function sprawdz(nr)
 	
 	//wygrana
 	if (haslo == haslo1)
-	document.getElementById("alfabet").innerHTML  = "Cyfra kodu pin nr 2, zapytaj Patrycje";
+	document.getElementById("alfabet").innerHTML  = "Druga cyfra równa się 3";
 	
 	//przegrana
 	if (ile_skuch>=9)
